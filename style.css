@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color:blueviolet;
+    background-color: yellow;
+    margin-top: 0px;
+}#saowsketsh{
+    float:right;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: exemplo;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count:infinite;
+
+}
+@keyframes exemplo {
+    from {box-shadow: 1px 1px 30px green;}
+    to {box-shadow: 1px 1px 30px white;}
+}
